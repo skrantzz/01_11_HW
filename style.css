@@ -1,0 +1,43 @@
+.container {
+  background: plum;
+}
+ul,
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav_items a {
+  font-size: 20px;
+  float: right;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.8rem;
+  border: 2px solid yellow;
+  padding: 12px;
+  color: purple;
+}
+
+a:hover {
+  color: mediumspringgreen;
+}
+
+.name {
+  font-size: 6rem;
+  color: yellow;
+  border: 2px solid mediumspringgreen;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.header {
+  color: purple;
+}
+
+.about_me {
+}
+
+h2 {
+  color: tomato;
+}
