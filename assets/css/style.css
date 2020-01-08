@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   height: 100vh;
   width: 100vw;
@@ -10,17 +11,17 @@ body {
   display: flex;
 }
 
-
 p {
   font-size: 20px;
 }
-h2 {
-  color: tomato;
-}
+
 h1 {
   color: tomato;
   font-size: 1.2rem;
-  
+}
+h2 {
+  color: tomato;
+  font-size: 1.2rem;
 }
 
 .nav {
@@ -42,7 +43,6 @@ a:hover {
 }
 
 .footer {
-  
   background: purple;
   text-align: center;
   position: fixed;
@@ -50,7 +50,6 @@ a:hover {
   width: 100%;
   height: 60px;
   padding: 15px;
-
 }
 .about_me {
   width: 960px;
@@ -72,7 +71,37 @@ span {
   body {
     background-color: lightblue;
   }
- .nav {
-display: list-item;
- }
+  .nav {
+    display: list-item;
+  }
+}
+
+.row-photos {
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.col-photos {
+  padding: auto;
+  margin: auto;
+}
+.image-cont {
+  border: 1px solid mediumspringgreen;
+  width: 960px;
+}
+
+.project-name {
+  background-color: palegoldenrod;
+  text-align: center;
+  position: absolute;
+  bottom: 8%;
+  width: 90%;
+  margin-left: auto;
+  /* margin-right: auto; */
+  padding: 7px
+}
+img {
+  padding: 5px;
+  margin: 5px;
 }
