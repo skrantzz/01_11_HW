@@ -1,7 +1,11 @@
+html, body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
 body {
   background-color: rgb(242, 188, 195);
-  padding: 10px;
-  margin: 0;
   line-height: 2;
   display: flex;
 }
@@ -41,7 +45,7 @@ a:hover {
   
   background: purple;
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;
