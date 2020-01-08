@@ -1,67 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Sydney Krantz Is Awesome!</title>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-  <body>
-    <div class="container-fluid nav_bar">
-      <!-- header and nav -->
-      <div class="row">
-        <div class="col-md-7 name">
-          <span>sydney krantz</span>
-        </div>
-        <div class="col-md-5 nav justify-content-center">
-          <ul>
-            <li><a href="./index.html">about</a></li>
-            <li><a href="./portfolio.html">portfolio</a></li>
-            <li><a href="./contact.html">contact</a></li>
-          </ul>
-        </div>
+  <title>Sydney Krantz Is Awesome!</title>
+</head>
+
+<body>
+  <div class="container-fluid nav_bar">
+    <!-- header and nav -->
+    <div class="row">
+      <div class="col-md-7 name">
+        <span>sydney krantz</span>
       </div>
-      <br />
-
-      <div class="row">
-        <div class="col-med-12">
-          <div class="container header">
-          
-            <hr />
-            <div class="row">
-              <div class="col-md-12">
-                <p>
-                  
-
-
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row footer">
-        <div class="col-md-12">
-          <footer>
-            <h1>copyright ©</h1>
-          </footer>
-        </div>
+      <div class="col-md-5 nav justify-content-center">
+        <ul>
+          <li><a href="./index.html">about</a></li>
+          <li><a href="./portfolio.html">portfolio</a></li>
+          <li><a href="./contact.html">contact</a></li>
+        </ul>
       </div>
     </div>
-  </body>
+    <br />
+
+
+    <section class="mb-4 contact-section">
+
+      <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">contact me</h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">say hey
+
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="name" name="name" class="form-control">
+                  <label for="name" class="">your name</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="email" name="email" class="form-control">
+                  <label for="email" class="">your email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input type="text" id="subject" name="subject" class="form-control">
+                  <label for="subject" class="">subject</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-12">
+
+                <div class="md-form">
+                  <textarea type="text" id="message" name="message" rows="2"
+                    class="form-control md-textarea"></textarea>
+                  <label for="message">your message</label>
+                </div>
+
+              </div>
+            </div>
+            <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+              <p>los angeles, ca 90066, usa</p>
+            </li>
+
+            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+              <p>hi@skrantz.com</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+      </div>
+
+    </section>
+
+
+    </p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="row footer">
+    <div class="col-md-12">
+      <footer>
+        <h1>copyright ©</h1>
+      </footer>
+    </div>
+  </div>
+  </div>
+</body>
+
 </html>
