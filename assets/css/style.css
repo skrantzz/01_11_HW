@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-color: rgb(242, 188, 195);
+  line-height: 2;
+  display: flex;
+}
+
+
+p {
+  font-size: 20px;
+}
+h2 {
+  color: tomato;
+}
+h1 {
+  color: tomato;
+  font-size: 1.2rem;
+  
+}
+
+.nav {
+  letter-spacing: 0.2rem;
+  word-spacing: 0.8rem;
+  text-align: center;
+  margin: auto;
+}
+
+ul,
+li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: mediumspringgreen;
+}
+
+.footer {
+  
+  background: purple;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding: 15px;
+
+}
+.about_me {
+  width: 960px;
+}
+
+.name {
+  font-size: 5rem;
+  color: yellow;
+  border: 2px solid mediumspringgreen;
+  letter-spacing: 0.3rem;
+}
+
+span {
+  margin: auto;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+ .nav {
+display: list-item;
+ }
+}
